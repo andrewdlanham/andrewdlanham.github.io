@@ -7,6 +7,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" href="images/website-favicon.png">
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 
@@ -15,15 +16,16 @@
     <!-- Wrapper -->
     <div id="wrapper">
 
-        <!-- Header -->
+        <!-- #region Header -->
         <header id="header" class="alt">
             <!--
             <span class="logo"><img src="images/logo.svg" alt="" /></span>
 		-->
             <h1>andrewdlanham</h1>
         </header>
+        <!-- #endregion -->
 
-        <!-- Nav -->
+        <!-- #region Nav -->
         <nav id="nav">
             <ul>
                 <li><a href="#about" class="active">About</a></li>
@@ -33,11 +35,12 @@
                 <li><a href="#resume">Resume</a></li>
             </ul>
         </nav>
+        <!-- #endregion -->
 
-        <!-- Main -->
+        <!-- #region Main -->
         <div id="main">
 
-            <!-- About -->
+            <!-- #region About -->
             <section id="about" class="main">
                 <header class="major">
                     <h2>About</h2>
@@ -46,12 +49,11 @@
                 <div class="aboutGrid">
                     <div class="aboutMe">
                         Welcome to my website!
-                        </br>I'm Andrew, a senior Computer Science student at Purdue University.
-                        </br>If you would like to learn about my skills, contact me, or view my resume, please check out the other sections!
+                        </br>I'm Andrew, a Computer Science student and aspiring software engineer at Purdue University.
+                        </br>If you would like to learn more about my experience, contact me, or view my resume, please check out the other sections!
                         </br>
                     </div>
                     <div class="aboutGrid2">
-
                         <div>
                             <img src="images/andrew.png">
                         </div>
@@ -64,12 +66,11 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </section>
+            <!-- #endregion -->
 
-            <!-- Skills -->
+            <!-- #region Skills -->
             <section id="skills" class="main">
                 <header class="major">
                     <h2>Skills</h2>
@@ -119,29 +120,53 @@
                 </div>
 
             </section>
+            <!-- #endregion -->
 
+
+            <!-- #region Projects -->
             <section id="projects" class="main">
                 <header class="major">
                     <h2>Projects</h2>
                 </header>
                 <div class="projectGrid">
+                    <!-- #region Empathic Design Project -->
                     <div>
-
-
-
                         <img src="images/empathic-design/stress-data.png" alt="" />
-
-
                     </div>
                     <div class="projectDescription">
-                        <span class="projectTitle">Empathic Design Project</span>
+                        <span class="projectTitle" id="empathicTitle">Empathic Design Project</span>
                         <br> During the summer of 2022, I worked with a team and identified several high-stress areas in downtown Louisville using tools such as Kepler.gl.
+                        <br>
+                        <!--
+                        <form method="get" action="temp.html">
+                            <button type="submit" class="button-9">Learn More</button>
+                        </form>
+                    -->
                     </div>
+                    <!-- #endregion -->
+                    <!-- #region Scholasticate -->
+                    <div>
+                        <img src="images/scholasticate/schol3.PNG">
+                    </div>
+
+                    <div class="projectDescription">
+                        <span class="projectTitle" id="scholasticateTitle">Scholasticate</span>
+                        <br> A web application that allows students to form study groups with their peers.
+                    </div>
+                    <!-- #endregion -->
+                    <div>
+                        <br><br>-
+                    </div>
+                    <div>
+                        <br><br>More projects and further details will be added soon!
+                    </div>
+
                 </div>
 
             </section>
+            <!-- #endregion -->
 
-            <!-- Contact -->
+            <!-- #region Contact -->
             <section id="contact" class="main">
                 <header class="major">
                     <h2>Contact</h2>
@@ -158,8 +183,9 @@
 
                 </header>
             </section>
+            <!-- #endregion -->
 
-            <!-- Resume -->
+            <!-- #region Resume -->
             <section id="resume" class="main">
                 <header class="major">
                     <h2>Resume</h2>
@@ -171,13 +197,14 @@
 
                 </header>
             </section>
+            <!-- #endregion -->
 
 
 
         </div>
+        <!-- #endregion -->
 
-        <!-- Footer -->
-
+        <!-- #region Footer -->
         <footer id="footer">
             <!--
             <section>
@@ -188,8 +215,6 @@
                             </ul>
             </section>
 
-
-
             <section>
                 <ul class="icons">
                     <li><a href="https://github.com/andrewdlanham" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
@@ -198,11 +223,10 @@
             </section>
             -->
         </footer>
-
-
+        <!-- #endregion -->
     </div>
 
-    <!-- Scripts -->
+    <!-- #region Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
@@ -210,6 +234,7 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <!-- #endregion -->
 
 </body>
 
