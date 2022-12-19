@@ -3643,7 +3643,7 @@ body.is-preload #header.alt .logo {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-gap: 1em;
+    grid-gap: 5em;
     /* border: 1px solid black; */
 }
 
@@ -3661,7 +3661,7 @@ body.is-preload #header.alt .logo {
 }
 
 .projectTitle {
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 1000;
     text-decoration: underline;
     /* border: 1px solid blue; */
@@ -3675,8 +3675,16 @@ body.is-preload #header.alt .logo {
     color: lightblue;
 }
 
+#snapstatsTitle {
+    color: rgb(104, 104, 210);
+}
+
+#leftoversTitle {
+    color: #72bb53;
+}
+
 .projectDescription {
-    font-size: 1.5vw;
+    font-size: max(12px, 1.5vw);
 }
 
 
